@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage
+    x:Class="MyMvvmCrossApp1.UI.Pages.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MyMvvmCrossApp1.UI.Pages"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns:viewModels="clr-namespace:MyMvvmCrossApp1.Core.ViewModels.Home;assembly=MyMvvmCrossApp1.Core"
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    Title="Main page"
+    x:TypeArguments="viewModels:HomeViewModel">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+                Padding="24"
+                Spacing="12"
+                VerticalOptions="CenterAndExpand">
+                <Button
+                    BackgroundColor="Blue"
+                    Command="{Binding TestAsyncCommandSimpleBinding}"
+                    CornerRadius="4"
+                    Text="Simple Binding"
+                    TextColor="White" />
+
+                <Button
+                    BackgroundColor="Blue"
+                    Command="{Binding TestAsyncCommandClickEventPage}"
+                    CornerRadius="4"
+                    Text="CLICK EVENT"
+                    TextColor="White" />
+
+                <Button
+                    BackgroundColor="Blue"
+                    Command="{Binding TestAsyncCommandNavigationSample}"
+                    CornerRadius="4"
+                    Text="NAVIGATION"
+                    TextColor="White" />
+
+                <Button
+                    BackgroundColor="Blue"
+                    Command="{Binding TestAsyncCommandIsBusy}"
+                    CornerRadius="4"
+                    Text="LOADING"
+                    TextColor="White" />
+
+                <Button
+                    BackgroundColor="Blue"
+                    Command="{Binding TestAsyncCommandCollection}"
+                    CornerRadius="4"
+                    Text="Collection View"
+                    TextColor="White" />
+
+
+
+                <Button
+                    BackgroundColor="Blue"
+                    Command="{Binding TestAsyncCommandEntrySample}"
+                    CornerRadius="4"
+                    Text="User Input"
+                    TextColor="White" />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</views:MvxContentPage>
