@@ -6,6 +6,7 @@
     xmlns:d="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
     xmlns:viewModels="clr-namespace:MyMvvmCrossApp1.Core.ViewModels;assembly=MyMvvmCrossApp1.Core"
     xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    Title="User Input"
     x:TypeArguments="viewModels:EntryPageSampleViewModel">
     <ContentPage.Content>
         <StackLayout Padding="0" VerticalOptions="CenterAndExpand">

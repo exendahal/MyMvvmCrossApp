@@ -7,7 +7,7 @@
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
     xmlns:viewModels="clr-namespace:MyMvvmCrossApp1.Core.ViewModels.Home;assembly=MyMvvmCrossApp1.Core"
     xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-    Title="Main page"
+    Title="MVVMCross"
     x:TypeArguments="viewModels:HomeViewModel">
     <ContentPage.Content>
         <ScrollView>
