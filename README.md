@@ -4,6 +4,7 @@ MVVMCross sample project for beginners
 ## About MvvmCross
 Build clean, pixel perfect, native UIs. Share behavior and business logic in a single codebase across supported platforms, using the Model-View-ViewModel (MVVM) design pattern. MvvmCross is a framework specifically developed for Xamarin and the mobile ecosystem. It supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin.Forms, Universal Windows Platform (UWP) and Windows Presentation Framework (WPF)
 ## Offical documentation : [MvvmCross](https://www.mvvmcross.com/)
+## Offical documentation : [MvxScaffolding](https://marketplace.visualstudio.com/items?itemName=Plac3Hold3r.MvxScaffolding)
 ## Nugets Packages used
 - MvvmCross 8.0.2
 - MvvmCross.Forms 8.0.2
@@ -22,11 +23,11 @@ Build clean, pixel perfect, native UIs. Share behavior and business logic in a s
 - Entry
 
 ## Resources and help
-- [Github](https://github.com/MvvmCross/MvvmCrossb)
+- [Github](https://github.com/MvvmCross/MvvmCross)
 - [Youtube](https://www.youtube.com/watch?v=fRo2tW51rWQ&t=1513s)
 - [Blog](https://mentormate.com/blog/6-reasons-mvvmcross-speeds-xamarin-development-personalizes-ux/)
 - [Frameworks comparison](https://github.com/rogerwcpt/xamarin-mvvvm-frameworks)
 
 ## Preview
-<img  src="HelloMvvm/Preview/1.png" width="260" height="450"> <img src="HelloMvvm/Preview/2.png" width="260" height="450">  <img src="HelloMvvm/Preview/3.png" width="260" height="450"><br>
+<img  src="Preview/1.png" width="260" height="450"> <img src="Preview/2.png" width="260" height="450">  <img src="Preview/3.png" width="260" height="450"><br>
 
